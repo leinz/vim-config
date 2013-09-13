@@ -17,6 +17,9 @@ set shiftwidth=4
 set softtabstop=4
 filetype indent on
 
+" Command-T overrides
+nnoremap <silent> <Leader>g :CommandTBuffer<CR>"
+
 " Treeview with netrw
 let g:netrw_liststyle=3 " Use tree-mode as default view
 let g:netrw_browse_split=4 " Open file in previous buffer
