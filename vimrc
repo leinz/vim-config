@@ -17,6 +17,9 @@ set shiftwidth=4
 set softtabstop=4
 filetype indent on
 
+" Always show status bar
+set laststatus=2
+
 " Command-T overrides
 nnoremap <silent> <Leader>g :CommandTBuffer<CR>"
 
