@@ -30,6 +30,8 @@ let g:netrw_preview=1 " preview window shown in a vertically split
 let g:netrw_winsize=20 " Better readability
 
 set wildignore+=*.pyc
+set wildignore+=*.o
+set wildignore+=*.so
 
 " Default python folding
 let g:pymode_folding = 1
