@@ -23,6 +23,9 @@ set laststatus=2
 " Command-T overrides
 nnoremap <silent> <Leader>g :CommandTBuffer<CR>"
 
+" Disable indent line by default
+let g:indentLine_enabled=0
+
 " Indent line trigger
 nnoremap <silent> <Leader>ig :IndentLinesToggle<CR>"
 
