@@ -23,6 +23,9 @@ set laststatus=2
 " Command-T overrides
 nnoremap <silent> <Leader>g :CommandTBuffer<CR>"
 
+" Indent line trigger
+nnoremap <silent> <Leader>ig :IndentLinesToggle<CR>"
+
 " Treeview with netrw
 let g:netrw_liststyle=3 " Use tree-mode as default view
 let g:netrw_browse_split=4 " Open file in previous buffer
