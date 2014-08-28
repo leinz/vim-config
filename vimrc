@@ -39,6 +39,11 @@ let g:pymode_folding = 1
 " Pylint ignores long lines
 " let g:pymode_lint_ignore = "E501"
 
+" Custom keymaps
+nmap .gc :Gcommit<CR>
+nmap .gs :Gstatus<CR>
+nmap .gb :Gblame<CR>
+
 colorscheme desert
 
 " Custom commands
