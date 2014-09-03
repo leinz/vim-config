@@ -17,6 +17,9 @@ set shiftwidth=4
 set softtabstop=4
 filetype indent on
 
+" Highlight search matches
+set hlsearch
+
 " Always show status bar
 set laststatus=2
 
