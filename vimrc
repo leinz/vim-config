@@ -43,9 +43,13 @@ let g:pymode_folding = 1
 " let g:pymode_lint_ignore = "E501"
 
 " Custom keymaps
+nnoremap . <NOP>
 nmap .gc :Gcommit<CR>
 nmap .gs :Gstatus<CR>
 nmap .gb :Gblame<CR>
+nmap .gg :Ggrep 
+nmap .t :!tox<CR>
+nmap .p :!py.test<CR>
 
 colorscheme desert
 
