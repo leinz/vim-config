@@ -50,7 +50,7 @@ nmap .gb :Gblame<CR>
 nmap .gg :Ggrep 
 nmap .v :vsplit<CR>
 nmap .c :close<CR>
-nmap .t :!tox<CR>
+nmap .t :!tox --develop<CR>
 nmap .p :!py.test<CR>
 
 colorscheme desert
